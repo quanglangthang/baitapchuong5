@@ -4,14 +4,10 @@ using namespace std;
 
 int main() {
 	string n;
-	int index, temp;
+	int index;
 	cout << "Nhap vao chuoi can dao nguoc so dau va cuoi: ";
 	cin >> n;
 	index = n.size();
-	for (int i = 0; i < index; i++) {
-		temp = n[0];
-		n[0] = n[index-1];
-		n[index-1]= temp;
-		cout << n[i]; 
-	}
+// 	Cat chuoi
+	cout<<n[index-1] + n.substr(1,index-2) + n[0];
 }
