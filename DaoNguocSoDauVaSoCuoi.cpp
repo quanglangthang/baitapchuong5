@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 	string n;
-	int index, temp =0;
+	int index, temp;
 	cout << "Nhap vao chuoi can dao nguoc so dau va cuoi: ";
 	cin >> n;
 	index = n.size();
