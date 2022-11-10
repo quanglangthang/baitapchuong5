@@ -9,5 +9,5 @@ int main() {
 	cin >> n;
 	index = n.size();
 // 	Cat chuoi
-	cout<<n[index-1] + n.substr(1,index-2) + n[0];
+	cout << n[index-1] + n.substr(1,index-2) + n[0];
 }
